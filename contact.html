@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Taza Services — professionnels locaux à Taza, Maroc. Contact direct par téléphone et WhatsApp.">
+<meta property="og:title" content="Contact | Taza Services"><meta property="og:description" content="Services locaux à Taza, Maroc.">
+<title>Contact | Taza Services</title>
+<link rel="stylesheet" href="css/style.css"><script src="js/data.js" defer></script><script src="js/main.js" defer></script>
+</head><body data-page="contact">
+<header class="site-header"><div class="container navbar">
+<a class="brand" href="index.html"><span class="brand-mark">TS</span><span class="business-name">Taza Services</span></a>
+<button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+<nav class="site-nav" aria-label="Main navigation">
+<a href="index.html" data-nav="home" data-i18n="navHome">Accueil</a><a href="services.html" data-nav="services" data-i18n="navServices">Services</a><a href="about.html" data-nav="about" data-i18n="navAbout">À propos</a><a href="contact.html" data-nav="contact" data-i18n="navContact">Contact</a><a href="contact.html" class="nav-cta" data-i18n="quote">Demander un devis</a>
+<div class="language-switcher"><button class="lang-btn" data-lang="fr">FR</button><button class="lang-btn" data-lang="ar">العربية</button></div>
+</nav></div></header>
+
+<main><section class="page-hero"><div class="container"><span class="eyebrow" data-i18n="contactEyebrow">Nous contacter</span><h1 data-i18n="contactTitle">Expliquez-nous votre besoin.</h1><p data-i18n="contactIntro">Utilisez le formulaire pour une demande générale ou contactez-nous directement par téléphone ou WhatsApp.</p></div></section>
+<section class="section"><div class="container contact-grid"><div><span class="eyebrow" data-i18n="contactDetails">Coordonnées</span><h2 data-i18n="hereToHelp">Nous sommes là pour vous aider.</h2><div class="contact-cards"><div class="contact-card"><span class="contact-icon">☎</span><div><strong data-i18n="phone">Téléphone</strong><a class="business-phone phone-ltr" href="#"></a></div></div><div class="contact-card"><span class="contact-icon">◌</span><div><strong>WhatsApp</strong><a data-business-whatsapp href="#" target="_blank">WhatsApp</a></div></div><div class="contact-card"><span class="contact-icon">✉</span><div><strong data-i18n="email">E-mail</strong><a class="business-email" href="#"></a></div></div><div class="contact-card"><span class="contact-icon">⌖</span><div><strong data-i18n="location">Localisation</strong><span class="business-address"></span></div></div><div class="contact-card"><span class="contact-icon">◷</span><div><strong data-i18n="workingHours">Horaires</strong><span class="business-hours"></span></div></div></div><div class="map-placeholder"><div><strong data-i18n="mapTitle">Zone Google Maps</strong><span data-i18n="mapText">Remplacez cet emplacement par votre vraie carte de Taza.</span></div></div></div>
+<div class="form-card"><span class="eyebrow" data-i18n="serviceRequest">Demande de service</span><h2 data-i18n="sendRequest">Envoyer une demande</h2><p data-i18n="contactIntro">Utilisez le formulaire pour une demande générale ou contactez-nous directement.</p><form id="contact-form" novalidate><div class="form-grid">
+<div class="field"><label for="name" data-i18n="yourName">Votre nom *</label><input id="name" required autocomplete="name"></div>
+<div class="field"><label for="phone" data-i18n="phoneField">Téléphone *</label><input id="phone" required type="tel" autocomplete="tel"></div>
+<div class="field"><label for="service-choice" data-i18n="serviceField">Service</label><select id="service-choice"><option value="" data-i18n="choose">Choisir un service</option></select></div>
+<div class="field"><label for="preferred" data-i18n="timing">Disponibilité souhaitée</label><select id="preferred"><option data-i18n="preferred1">Dès que possible</option><option data-i18n="preferred2">Cette semaine</option><option data-i18n="preferred3">La semaine prochaine</option><option data-i18n="preferred4">Flexible</option></select></div>
+<div class="field full-width"><label for="message" data-i18n="message">Décrivez votre besoin *</label><textarea id="message" required data-i18n-placeholder="messagePlaceholder" placeholder="Ex. : carrelage de salle de bain…"></textarea></div>
+<div class="field full-width"><button class="btn btn-primary" type="submit" data-i18n="sendRequest">Envoyer une demande</button></div></div></form><div id="form-success" class="form-success" hidden data-i18n="success"></div></div></div></section></main>
+<footer class="site-footer"><div class="container footer-grid">
+<div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark">TS</span><span class="business-name">Taza Services</span></a><p class="business-description"></p></div>
+<div class="footer-col"><h3 data-i18n="footerExplore">Explorer</h3><a href="services.html" data-i18n="navServices">Services</a><a href="about.html" data-i18n="navAbout">À propos</a><a href="contact.html" data-i18n="navContact">Contact</a></div>
+<div class="footer-col"><h3 data-i18n="navContact">Contact</h3><a class="business-phone phone-ltr" href="#"></a><a class="business-email" href="#"></a><span class="business-hours"></span></div>
+<div class="footer-col"><h3 data-i18n="footerSocial">Réseaux sociaux</h3><a href="https://www.facebook.com/" target="_blank">Facebook</a><a href="https://www.instagram.com/" target="_blank">Instagram</a><a data-business-whatsapp href="#" target="_blank">WhatsApp</a></div>
+</div><div class="container footer-bottom"><span>© <span id="current-year"></span> Taza Services. <span data-i18n="allRights">Tous droits réservés.</span></span><span data-i18n="madeWith">Créé avec HTML, CSS et JavaScript vanilla</span></div></footer>
+<div class="mobile-contact"><a class="btn btn-dark business-phone phone-ltr" href="#">☎</a><a class="btn btn-whatsapp" data-business-whatsapp href="#" target="_blank">◌ WhatsApp</a></div>
+</body></html>
